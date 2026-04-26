@@ -1,0 +1,472 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Infinite - Premium Shopping Portal</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>♾️</text></svg>">
+    
+    <meta name="description" content="Shop Infinite - Your one-stop portal for all premium shopping experiences">
+    <meta name="theme-color" content="#8b5cf6">
+</head>
+
+<body>
+    <div class="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="logo-icon fas fa-infinity"></i>
+                    <span>Shop Infinite</span>
+                </div>
+                <div class="header-actions">
+                    <a href="/profile" class="btn-secondary" title="Profile">
+                        <i class="fas fa-user"></i>
+                    </a>
+                    <a href="/logout" class="btn-primary" title="Logout">
+                        <i class="fas fa-sign-out-alt"></i> Logout
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="hero">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Premium Shopping</span>
+                    <span class="hero-subtitle">All in One Place</span>
+                </h1>
+                <p class="hero-description">Access India's top shopping platforms with one click</p>
+            </div>
+
+            <!-- Categories -->
+            <section class="categories" id="categories">
+                <!-- Fashion -->
+                <div class="category-section">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-tshirt"></i>
+                        </div>
+                        <h2>Fashion & Apparel</h2>
+                        <span class="category-count">4 Stores</span>
+                    </div>
+                    <div class="stores-grid">
+                        <a href="https://www.myntra.com" target="_blank" rel="noopener noreferrer" class="store-card fashion" data-brand="Myntra">
+                            <div class="store-logo">
+                                <img src="https://logo.clearbit.com/myntra.com?size=80" alt="Myntra" loading="lazy">
+                            </div>
+                            <div class="store-info">
+                                <h3>Myntra</h3>
+                                <p>Premium Fashion</p>
+                            </div>
+                            <div class="store-visit">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </a>
+
+                        <a href="https://www.ajio.com" target="_blank" rel="noopener noreferrer" class="store-card fashion" data-brand="Ajio">
+                            <div class="store-logo">
+                                <img src="https://logo.clearbit.com/ajio.com?size=80" alt="Ajio" loading="lazy">
+                            </div>
+                            <div class="store-info">
+                                <h3>Ajio</h3>
+                                <p>Trendy Styles</p>
+                            </div>
+                            <div class="store-visit">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </a>
+
+                        <a href="https://www.zara.com" target="_blank" rel="noopener noreferrer" class="store-card fashion" data-brand="Zara">
+                            <div class="store-logo">
+                                <img src="https://logo.clearbit.com/zara.com?size=80" alt="Zara" loading="lazy">
+                            </div>
+                            <div class="store-info">
+                                <h3>Zara</h3>
+                                <p>Global Fashion</p>
+                            </div>
+                            <div class="store-visit">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </a>
+
+                        <a href="https://www.hm.com" target="_blank" rel="noopener noreferrer" class="store-card fashion" data-brand="H&M">
+                            <div class="store-logo">
+                                <img src="https://logo.clearbit.com/hm.com?size=80" alt="H&M" loading="lazy">
+                            </div>
+                            <div class="store-info">
+                                <h3>H&M</h3>
+                                <p>Fast Fashion</p>
+                            </div>
+                            <div class="store-visit">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Electronics -->
+                <div class="category-section">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <h2>Electronics</h2>
+                        <span class="category-count">4 Stores</span>
+                    </div>
+                    <div class="stores-grid">
+                        <a href="https://www.flipkart.com" target="_blank" rel="noopener noreferrer" class="store-card electronics" data-brand="Flipkart">
+                            <div class="store-logo">
+                                <img src="https://logo.clearbit.com/flipkart.com?size=80" alt="Flipkart" loading="lazy">
+                            </div>
+                            <div class="store-info">
+                                <h3>Flipkart</h3>
+                                <p>Everything Tech</p>
+                            </div>
+                            <div class="store-visit">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </a>
+
+                        <a href="https://www.amazon.in" target="_blank" rel="noopener noreferrer" class="store-card electronics" data-brand="Amazon">
+                            <div class="store-logo">
+                                <img src="https://logo.clearbit.com/amazon.in?size=80" alt="Amazon" loading="lazy">
+                            </div>
+                            <div class="store-info">
+                                <h3>Amazon</h3>
+                                <p>Prime Shopping</p>
+                            </div>
+                            <div class="store-visit">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </a>
+
+                        <a href="https://www.croma.com" target="_blank" rel="noopener noreferrer" class="store-card electronics" data-brand="Croma">
+                            <div class="store-logo">
+                                <img src="https://logo.clearbit.com/croma.com?size=80" alt="Croma" loading="lazy">
+                            </div>
+                            <div class="store-info">
+                                <h3>Croma</h3>
+                                <p>Electronics Hub</p>
+                            </div>
+                            <div class="store-visit">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </a>
+
+                        <a href="https://www.reliancedigital.in" target="_blank" rel="noopener noreferrer" class="store-card electronics" data-brand="Reliance Digital">
+                            <div class="store-logo">
+                                <img src="https://logo.clearbit.com/reliancedigital.in?size=80" alt="Reliance Digital" loading="lazy">
+                            </div>
+                            <div class="store-info">
+                                <h3>Reliance Digital</h3>
+                                <p>Tech Superstore</p>
+                            </div>
+                            <div class="store-visit">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Grocery -->
+                <div class="category-section">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-shopping-basket"></i>
+                        </div>
+                        <h2>Grocery & Essentials</h2>
+                        <span class="category-count">3 Stores</span>
+                    </div>
+                    <div class="stores-grid">
+                        <a href="https://www.bigbasket.com" target="_blank" rel="noopener noreferrer" class="store-card grocery" data-brand="BigBasket">
+                            <div class="store-logo">
+                                <img src="https://logo.clearbit.com/bigbasket.com?size=80" alt="BigBasket" loading="lazy">
+                            </div>
+                            <div class="store-info">
+                                <h3>BigBasket</h3>
+                                <p>Grocery Delivery</p>
+                            </div>
+                            <div class="store-visit">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </a>
+
+                        <a href="https://www.blinkit.com" target="_blank" rel="noopener noreferrer" class="store-card grocery" data-brand="Blinkit">
+                            <div class="store-logo">
+                                <img src="https://logo.clearbit.com/blinkit.com?size=80" alt="Blinkit" loading="lazy">
+                            </div>
+                            <div class="store-info">
+                                <h3>Blinkit</h3>
+                                <p>10 Min Delivery</p>
+                            </div>
+                            <div class="store-visit">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </a>
+
+                        <a href="https://www.zepto.com" target="_blank" rel="noopener noreferrer" class="store-card grocery" data-brand="Zepto">
+                            <div class="store-logo">
+                                <img src="https://logo.clearbit.com/zepto.com?size=80" alt="Zepto" loading="lazy">
+                            </div>
+                            <div class="store-info">
+                                <h3>Zepto</h3>
+                                <p>Ultra Fast</p>
+                            </div>
+                            <div class="store-visit">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Beauty -->
+                <div class="category-section">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-spa"></i>
+                        </div>
+                        <h2>Beauty & Wellness</h2>
+                        <span class="category-count">2 Stores</span>
+                    </div>
+                    <div class="stores-grid">
+                        <a href="https://www.nykaa.com" target="_blank" rel="noopener noreferrer" class="store-card beauty" data-brand="Nykaa">
+                            <div class="store-logo">
+                                <img src="https://logo.clearbit.com/nykaa.com?size=80" alt="Nykaa" loading="lazy">
+                            </div>
+                            <div class="store-info">
+                                <h3>Nykaa</h3>
+                                <p>Beauty Experts</p>
+                            </div>
+                            <div class="store-visit">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </a>
+
+                        <a href="https://www.sephora.com" target="_blank" rel="noopener noreferrer" class="store-card beauty" data-brand="Sephora">
+                            <div class="store-logo">
+                                <img src="https://logo.clearbit.com/sephora.com?size=80" alt="Sephora" loading="lazy">
+                            </div>
+                            <div class="store-info">
+                                <h3>Sephora</h3>
+                                <p>Luxury Beauty</p>
+                            </div>
+                            <div class="store-visit">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Food -->
+                <div class="category-section">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h2>Food & Delivery</h2>
+                        <span class="category-count">2 Stores</span>
+                    </div>
+                    <div class="stores-grid">
+                        <a href="https://www.swiggy.com" target="_blank" rel="noopener noreferrer" class="store-card food" data-brand="Swiggy">
+                            <div class="store-logo">
+                                <img src="https://logo.clearbit.com/swiggy.com?size=80" alt="Swiggy" loading="lazy">
+                            </div>
+                            <div class="store-info">
+                                <h3>Swiggy</h3>
+                                <p>Food Delivery</p>
+                            </div>
+                            <div class="store-visit">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </a>
+
+                        <a href="https://www.zomato.com" target="_blank" rel="noopener noreferrer" class="store-card food" data-brand="Zomato">
+                            <div class="store-logo">
+                                <img src="https://logo.clearbit.com/zomato.com?size=80" alt="Zomato" loading="lazy">
+                            </div>
+                            <div class="store-info">
+                                <h3>Zomato</h3>
+                                <p>Restaurant Hub</p>
+                            </div>
+                            <div class="store-visit">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2024 Shop Infinite. All rights reserved.</p>
+                <p>Access premium shopping platforms securely and efficiently.</p>
+            </div>
+        </footer>
+    </div>
+
+    <style>
+        :root {
+            --primary: #8b5cf6;
+            --primary-dark: #7c3aed;
+            --secondary: #38bdf8;
+            --accent: #10b981;
+            --danger: #ef4444;
+            --dark-900: #0b0f1a;
+            --dark-800: #111827;
+            --dark-700: #141a2e;
+            --dark-600: #1e293b;
+            --dark-500: #334155;
+            --gray-400: #94a3b8;
+            --white: #f8fafc;
+            --shadow: 0 10px 30px rgba(0,0,0,0.3);
+            --shadow-hover: 0 20px 50px rgba(0,0,0,0.4);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--dark-900);
+            color: var(--white);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .app {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header */
+        .header {
+            background: rgba(11, 15, 26, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(139, 92, 246, 0.2);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            padding: 1rem 0;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--white);
+        }
+
+        .logo-icon {
+            font-size: 2rem;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .btn-primary, .btn-secondary {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            border-radius: 12px;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid transparent;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--danger), #dc2626);
+            color: var(--white);
+            box-shadow: 0 4px 15px rgba(239, 68, 68, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(239, 68, 68, 0.4);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--white);
+            backdrop-filter: blur(10px);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-1px);
+        }
+
+        /* Main Content */
+        .main-content {
+            flex: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 4rem;
+            padding: 3rem 0;
+        }
+
+        .hero-title {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 700;
+            margin-bottom: 1rem;
+            line-height: 1.1;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            color: var(--gray-400);
+            font-size: 1.25rem;
+            font-weight: 400;
+        }
+
+                .hero-description {
+                    max-width: 600px;
+                    margin: 1.5rem auto 0;
+                    color: var(--gray-400);
+                }
+            </style>
+        </body>
+        </html>
